@@ -7,6 +7,9 @@ def load_font(font_name):
 
     if font_name in _loaded_fonts:
         return
+    _loaded_fonts[font_name] = _load_packed_font(font_name) 
+
+def _load_packed_font(font_name):
     font = None
     with open(f'{font_name}.pf', 'rb') as f:
         header = f.read(4)    
@@ -42,7 +45,7 @@ def load_font(font_name):
                 'start_index' : start_index
             }
         font['data'] = f.read()
-        _loaded_fonts[font_name] = font 
+        return font
 
 def unload_all_fonts():
     global _loaded_fonts
@@ -50,6 +53,11 @@ def unload_all_fonts():
 
 def select_font(font_name):
     global _current_font
+
+    if font_name == None:       # Select the built in font
+        _current_font = None
+        return
+
     if _current_font and _current_font['name'] == font_name:
         return
     
@@ -61,8 +69,7 @@ def select_font(font_name):
 
 def get_text_size(text):
     if not _current_font:
-        print(f'No font selected: {text}')
-        return
+        return len(text) * 8, 8     # Built in font
     
     characters = _current_font['characters']
     default_character = _current_font['default_character']
@@ -79,10 +86,6 @@ def get_text_size(text):
 
 def text(display, text, x, y, max_width=0, horiz_align=0, max_height=0, vert_align=0, c=1):
     
-    if not _current_font:
-        print(f'No font selected: {text}')
-        return
-    
     if (max_width > 0 and horiz_align > 0) or (max_height > 0 and vert_align > 0):
         total_text_width, text_height = get_text_size(text)
         if horiz_align == 1:     # Center
@@ -93,6 +96,10 @@ def text(display, text, x, y, max_width=0, horiz_align=0, max_height=0, vert_ali
             y += int((max_height - text_height) / 2)
         elif vert_align == 2:    # Bottom
             y += max_height - text_height
+
+    if not _current_font:   # Built in font
+        display.text(text, x, y, c)
+        return
     
     characters = _current_font['characters']
     default_character = _current_font['default_character']
