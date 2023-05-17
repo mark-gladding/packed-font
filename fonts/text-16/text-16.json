@@ -1,0 +1,578 @@
+{
+    "Name": "text-16.pf",
+    "Height": 16,
+    "Width": 16,
+    "DefaultCharacter": ".",
+    "Characters": [
+        {
+            "Code": " ",
+            "Width": 4,
+            "Height": 13,
+            "Filename": "U032.bmp"
+        },
+        {
+            "Code": "!",
+            "Width": 4,
+            "Height": 13,
+            "Filename": "U033.bmp"
+        },
+        {
+            "Code": "\"",
+            "Width": 6,
+            "Height": 13,
+            "Filename": "U034.bmp"
+        },
+        {
+            "Code": "#",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U035.bmp"
+        },
+        {
+            "Code": "$",
+            "Width": 9,
+            "Height": 14,
+            "Filename": "U036.bmp"
+        },
+        {
+            "Code": "%",
+            "Width": 14,
+            "Height": 13,
+            "Filename": "U037.bmp"
+        },
+        {
+            "Code": "&",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U038.bmp"
+        },
+        {
+            "Code": "'",
+            "Width": 3,
+            "Height": 13,
+            "Filename": "U039.bmp"
+        },
+        {
+            "Code": "(",
+            "Width": 5,
+            "Height": 16,
+            "Filename": "U040.bmp"
+        },
+        {
+            "Code": ")",
+            "Width": 5,
+            "Height": 16,
+            "Filename": "U041.bmp"
+        },
+        {
+            "Code": "*",
+            "Width": 6,
+            "Height": 13,
+            "Filename": "U042.bmp"
+        },
+        {
+            "Code": "+",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U043.bmp"
+        },
+        {
+            "Code": ",",
+            "Width": 4,
+            "Height": 16,
+            "Filename": "U044.bmp"
+        },
+        {
+            "Code": "-",
+            "Width": 5,
+            "Height": 13,
+            "Filename": "U045.bmp"
+        },
+        {
+            "Code": ".",
+            "Width": 4,
+            "Height": 13,
+            "Filename": "U046.bmp"
+        },
+        {
+            "Code": "/",
+            "Width": 5,
+            "Height": 13,
+            "Filename": "U047.bmp"
+        },
+        {
+            "Code": "0",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U048.bmp"
+        },
+        {
+            "Code": "1",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U049.bmp"
+        },
+        {
+            "Code": "2",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U050.bmp"
+        },
+        {
+            "Code": "3",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U051.bmp"
+        },
+        {
+            "Code": "4",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U052.bmp"
+        },
+        {
+            "Code": "5",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U053.bmp"
+        },
+        {
+            "Code": "6",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U054.bmp"
+        },
+        {
+            "Code": "7",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U055.bmp"
+        },
+        {
+            "Code": "8",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U056.bmp"
+        },
+        {
+            "Code": "9",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U057.bmp"
+        },
+        {
+            "Code": ":",
+            "Width": 4,
+            "Height": 13,
+            "Filename": "U058.bmp"
+        },
+        {
+            "Code": ";",
+            "Width": 4,
+            "Height": 16,
+            "Filename": "U059.bmp"
+        },
+        {
+            "Code": "<",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U060.bmp"
+        },
+        {
+            "Code": "=",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U061.bmp"
+        },
+        {
+            "Code": ">",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U062.bmp"
+        },
+        {
+            "Code": "?",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U063.bmp"
+        },
+        {
+            "Code": "@",
+            "Width": 16,
+            "Height": 16,
+            "Filename": "U064.bmp"
+        },
+        {
+            "Code": "A",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U065.bmp"
+        },
+        {
+            "Code": "B",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U066.bmp"
+        },
+        {
+            "Code": "C",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U067.bmp"
+        },
+        {
+            "Code": "D",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U068.bmp"
+        },
+        {
+            "Code": "E",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U069.bmp"
+        },
+        {
+            "Code": "F",
+            "Width": 10,
+            "Height": 13,
+            "Filename": "U070.bmp"
+        },
+        {
+            "Code": "G",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U071.bmp"
+        },
+        {
+            "Code": "H",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U072.bmp"
+        },
+        {
+            "Code": "I",
+            "Width": 4,
+            "Height": 13,
+            "Filename": "U073.bmp"
+        },
+        {
+            "Code": "J",
+            "Width": 8,
+            "Height": 13,
+            "Filename": "U074.bmp"
+        },
+        {
+            "Code": "K",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U075.bmp"
+        },
+        {
+            "Code": "L",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U076.bmp"
+        },
+        {
+            "Code": "M",
+            "Width": 13,
+            "Height": 13,
+            "Filename": "U077.bmp"
+        },
+        {
+            "Code": "N",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U078.bmp"
+        },
+        {
+            "Code": "O",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U079.bmp"
+        },
+        {
+            "Code": "P",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U080.bmp"
+        },
+        {
+            "Code": "Q",
+            "Width": 12,
+            "Height": 14,
+            "Filename": "U081.bmp"
+        },
+        {
+            "Code": "R",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U082.bmp"
+        },
+        {
+            "Code": "S",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U083.bmp"
+        },
+        {
+            "Code": "T",
+            "Width": 10,
+            "Height": 13,
+            "Filename": "U084.bmp"
+        },
+        {
+            "Code": "U",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U085.bmp"
+        },
+        {
+            "Code": "V",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U086.bmp"
+        },
+        {
+            "Code": "W",
+            "Width": 15,
+            "Height": 13,
+            "Filename": "U087.bmp"
+        },
+        {
+            "Code": "X",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U088.bmp"
+        },
+        {
+            "Code": "Y",
+            "Width": 11,
+            "Height": 13,
+            "Filename": "U089.bmp"
+        },
+        {
+            "Code": "Z",
+            "Width": 10,
+            "Height": 13,
+            "Filename": "U090.bmp"
+        },
+        {
+            "Code": "[",
+            "Width": 5,
+            "Height": 16,
+            "Filename": "U091.bmp"
+        },
+        {
+            "Code": "\\",
+            "Width": 5,
+            "Height": 13,
+            "Filename": "U092.bmp"
+        },
+        {
+            "Code": "]",
+            "Width": 4,
+            "Height": 16,
+            "Filename": "U093.bmp"
+        },
+        {
+            "Code": "^",
+            "Width": 8,
+            "Height": 13,
+            "Filename": "U094.bmp"
+        },
+        {
+            "Code": "_",
+            "Width": 10,
+            "Height": 16,
+            "Filename": "U095.bmp"
+        },
+        {
+            "Code": "`",
+            "Width": 5,
+            "Height": 13,
+            "Filename": "U096.bmp"
+        },
+        {
+            "Code": "a",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U097.bmp"
+        },
+        {
+            "Code": "b",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U098.bmp"
+        },
+        {
+            "Code": "c",
+            "Width": 8,
+            "Height": 13,
+            "Filename": "U099.bmp"
+        },
+        {
+            "Code": "d",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U100.bmp"
+        },
+        {
+            "Code": "e",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U101.bmp"
+        },
+        {
+            "Code": "f",
+            "Width": 5,
+            "Height": 13,
+            "Filename": "U102.bmp"
+        },
+        {
+            "Code": "g",
+            "Width": 9,
+            "Height": 16,
+            "Filename": "U103.bmp"
+        },
+        {
+            "Code": "h",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U104.bmp"
+        },
+        {
+            "Code": "i",
+            "Width": 4,
+            "Height": 13,
+            "Filename": "U105.bmp"
+        },
+        {
+            "Code": "j",
+            "Width": 4,
+            "Height": 16,
+            "Filename": "U106.bmp"
+        },
+        {
+            "Code": "k",
+            "Width": 8,
+            "Height": 13,
+            "Filename": "U107.bmp"
+        },
+        {
+            "Code": "l",
+            "Width": 4,
+            "Height": 13,
+            "Filename": "U108.bmp"
+        },
+        {
+            "Code": "m",
+            "Width": 13,
+            "Height": 13,
+            "Filename": "U109.bmp"
+        },
+        {
+            "Code": "n",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U110.bmp"
+        },
+        {
+            "Code": "o",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U111.bmp"
+        },
+        {
+            "Code": "p",
+            "Width": 9,
+            "Height": 16,
+            "Filename": "U112.bmp"
+        },
+        {
+            "Code": "q",
+            "Width": 9,
+            "Height": 16,
+            "Filename": "U113.bmp"
+        },
+        {
+            "Code": "r",
+            "Width": 6,
+            "Height": 13,
+            "Filename": "U114.bmp"
+        },
+        {
+            "Code": "s",
+            "Width": 8,
+            "Height": 13,
+            "Filename": "U115.bmp"
+        },
+        {
+            "Code": "t",
+            "Width": 5,
+            "Height": 13,
+            "Filename": "U116.bmp"
+        },
+        {
+            "Code": "u",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U117.bmp"
+        },
+        {
+            "Code": "v",
+            "Width": 8,
+            "Height": 13,
+            "Filename": "U118.bmp"
+        },
+        {
+            "Code": "w",
+            "Width": 12,
+            "Height": 13,
+            "Filename": "U119.bmp"
+        },
+        {
+            "Code": "x",
+            "Width": 8,
+            "Height": 13,
+            "Filename": "U120.bmp"
+        },
+        {
+            "Code": "y",
+            "Width": 8,
+            "Height": 16,
+            "Filename": "U121.bmp"
+        },
+        {
+            "Code": "z",
+            "Width": 8,
+            "Height": 13,
+            "Filename": "U122.bmp"
+        },
+        {
+            "Code": "{",
+            "Width": 5,
+            "Height": 16,
+            "Filename": "U123.bmp"
+        },
+        {
+            "Code": "|",
+            "Width": 4,
+            "Height": 16,
+            "Filename": "U124.bmp"
+        },
+        {
+            "Code": "}",
+            "Width": 5,
+            "Height": 16,
+            "Filename": "U125.bmp"
+        },
+        {
+            "Code": "~",
+            "Width": 9,
+            "Height": 13,
+            "Filename": "U126.bmp"
+        }
+    ]
+}

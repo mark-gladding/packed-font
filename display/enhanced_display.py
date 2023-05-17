@@ -115,6 +115,10 @@ class Enhanced_Display:
         if self.is_present:
             self._display.fill_rect(x, y, w, h, c)
 
+    def scroll(self, xstep, ystep):
+        if self.is_present:
+            self._display.scroll(xstep, ystep)
+
     # --------------- SSD1306 display functions --------------
 
     def show(self):

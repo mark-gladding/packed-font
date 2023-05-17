@@ -1,0 +1,26 @@
+{
+    "Name": "icons-32.pf",
+    "Width": 32,
+    "Height": 32,
+    "DefaultCharacter": "h",
+    "Characters": [
+        {
+            "Code": "h",
+            "Width": 24,
+            "Height": 32,
+            "Filename": "humidity.bmp"
+        },
+        {
+            "Code": "p",
+            "Width": 32,
+            "Height": 32,
+            "Filename": "pressure.bmp"
+        },
+        {
+            "Code": "t",
+            "Width": 16,
+            "Height": 32,
+            "Filename": "temperature.bmp"
+        }
+    ]
+}

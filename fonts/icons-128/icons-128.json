@@ -1,0 +1,14 @@
+{
+    "Name": "icons-128.pf",
+    "Width": 128,
+    "Height": 64,
+    "DefaultCharacter": "s",
+    "Characters": [
+        {
+            "Code": "s",
+            "Width": 128,
+            "Height": 64,
+            "Filename": "star.bmp"
+        }
+    ]
+}

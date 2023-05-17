@@ -1,0 +1,86 @@
+{
+    "Name": "digits-30.pf",
+    "Height": 30,
+    "Width": 24,
+    "DefaultCharacter": ".",
+    "Characters": [
+        {
+            "Code": "-",
+            "Width": 14,
+            "Height": 29,
+            "Filename": "U045.bmp"
+        },
+        {
+            "Code": ".",
+            "Width": 9,
+            "Height": 29,
+            "Filename": "U046.bmp"
+        },
+        {
+            "Code": "0",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U048.bmp"
+        },
+        {
+            "Code": "1",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U049.bmp"
+        },
+        {
+            "Code": "2",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U050.bmp"
+        },
+        {
+            "Code": "3",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U051.bmp"
+        },
+        {
+            "Code": "4",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U052.bmp"
+        },
+        {
+            "Code": "5",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U053.bmp"
+        },
+        {
+            "Code": "6",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U054.bmp"
+        },
+        {
+            "Code": "7",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U055.bmp"
+        },
+        {
+            "Code": "8",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U056.bmp"
+        },
+        {
+            "Code": "9",
+            "Width": 21,
+            "Height": 29,
+            "Filename": "U057.bmp"
+        },
+        {
+            "Code": "\u00b0",
+            "Width": 17,
+            "Height": 29,
+            "Filename": "U176.bmp"
+        }
+    ]
+}
