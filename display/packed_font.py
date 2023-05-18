@@ -1,8 +1,23 @@
 
+# Module for rendering different sized fonts on the SSD1306 Pico Pi Display.
+# Fonts are stored in a memory efficient binary format.
+# Fonts can be proportional or monospaced.
+# A font can contain just the characters needed for a specific application.
+#
+# Copyright (C) Mark Gladding 2023.
+#
+# MIT License (see the accompanying license file)
+#
+
 _loaded_fonts = {}
 _current_font = None
 
 def load_font(font_name):
+    """Load a packed font into memory for use. Once loaded, the font must be selected for use.
+
+    Args:
+        font_name (string): Name of the font, without the .pf extension.
+    """    
     global _loaded_fonts
 
     if font_name in _loaded_fonts:
@@ -48,10 +63,17 @@ def _load_packed_font(font_name):
         return font
 
 def unload_all_fonts():
-    global _loaded_fonts
+    """ Unload all fonts and select the built in font as the current font."""
+    global _loaded_fonts,  _current_font
     _loaded_fonts = {}
+    _current_font = None
 
 def select_font(font_name):
+    """Select the font to use for subsequent calls to get_text_size() and text()
+
+    Args:
+        font_name (string): Name of the font to select or None to select the built in font.
+    """    
     global _current_font
 
     if font_name == None:       # Select the built in font
@@ -68,6 +90,14 @@ def select_font(font_name):
     
 
 def get_text_size(text):
+    """Calculate the width and height of the rendered text using the currently selected font.
+
+    Args:
+        text (string): The text string to measure
+
+    Returns:
+        (int, int): Tuple containing the width and height of the rendered text.
+    """
     if not _current_font:
         return len(text) * 8, 8     # Built in font
     
@@ -85,6 +115,19 @@ def get_text_size(text):
     return width, height
 
 def text(display, text, x, y, max_width=0, horiz_align=0, max_height=0, vert_align=0, c=1):
+    """Render a text string to the display in the currently selected font, with optional alignment.
+
+    Args:
+        display (PiicoDev_SSD): The display to render the text on
+        text (string): Text to render
+        x (int): X coordinate to begin text rendering
+        y (int): Y coordinate to begin text rendering
+        max_width (int, optional): Width of the box to align text horizontally within. Defaults to 0.
+        horiz_align (int, optional): 0 = Left, 1 = Center, 2 = Right. Defaults to 0.
+        max_height (int, optional): Height of the box to align text vertically within. Defaults to 0.
+        vert_align (int, optional): 0 = Top, 1 = Center, 2 = Bottom. Defaults to 0.
+        c (int, optional): Color to render text in. Defaults to 1.
+    """    
     
     if (max_width > 0 and horiz_align > 0) or (max_height > 0 and vert_align > 0):
         total_text_width, text_height = get_text_size(text)

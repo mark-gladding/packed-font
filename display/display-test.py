@@ -1,3 +1,12 @@
+# Script to test the 2D drawing functions of the SSD1306 Display and Frame Buffer are still accessible.
+#
+# Copyright (C) Mark Gladding 2023.
+#
+# MIT License (see the accompanying license file)
+#
+# https://github.com/mark-gladding/packed-font
+#
+
 from enhanced_display import Enhanced_Display
 import time
 

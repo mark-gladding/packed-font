@@ -1,3 +1,12 @@
+# Script to demonstrate the Enhanced_Display class and associated packed fonts.
+#
+# Copyright (C) Mark Gladding 2023.
+#
+# MIT License (see the accompanying license file)
+#
+# https://github.com/mark-gladding/packed-font
+#
+
 from enhanced_display import Enhanced_Display
 import time
 
