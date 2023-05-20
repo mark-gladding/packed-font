@@ -1,3 +1,16 @@
+# Script to render a truetype font (or any font format supported by PIL) and 
+# create a series of font bitmaps and an associated definition file which can then be
+# used as inputs to create a packed font for use on a Pico Pi SSD1306 display.
+#
+# It depends on the Pillow (PIL) library, available here: https://pillow.readthedocs.io/en/stable/index.html#
+#
+# Copyright (C) Mark Gladding 2023.
+#
+# MIT License (see the accompanying license file)
+#
+# https://github.com/mark-gladding/packed-font
+#
+
 import argparse
 import json
 from PIL import Image, ImageFont, ImageDraw

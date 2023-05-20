@@ -1,3 +1,14 @@
+# Script which takes a series of font bitmaps and an associated definition file and
+# creates a packed font file (.pf) for use on a Pico Pi SSD1306 display.
+#
+# It depends on the Pillow (PIL) library, available here: https://pillow.readthedocs.io/en/stable/index.html#
+#
+# Copyright (C) Mark Gladding 2023.
+#
+# MIT License (see the accompanying license file)
+#
+# https://github.com/mark-gladding/packed-font
+#
 import argparse
 import json
 from PIL import Image
@@ -21,14 +32,14 @@ def create_packed_font(font_info_filename, verbose):
 
     # Packed font format
     # Header - 'PF' (2 bytes)
-    # Default Character (1 byte)
-    # Number of characters (1 byte)
-    #  Character 1..n
-    #       Character code (1 byte)
-    #       Width (1 byte)
-    #       Height (1 byte)
-    #       StartIndex (2 bytes)
-    #       Character data
+    #        - Default Character (1 byte)
+    #        - Number of characters (1 byte)
+    #        - Character 1..n
+    #               Character code (1 byte)
+    #               Width (1 byte)
+    #               Height (1 byte)
+    #               StartIndex of character data (2 bytes)
+    # Character data[bytes]
 
     header = [ord('P'), ord('F'), ord(default_character), character_count ]
     data = []
